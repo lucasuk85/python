@@ -25,7 +25,7 @@ lista5 = [True, False, True, True, False, True, False, False]
 quantidade = 0
 
 for pagantes in lista5:
-    if pagantes == False:
+    if not pagantes:
         quantidade += 1
         
 print(quantidade)

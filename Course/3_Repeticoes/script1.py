@@ -22,7 +22,7 @@ lista4 = [["Brasil", "Argentina"], ["França", "Itália"]]
 lista5 = [True, False, True, True, False, True, False, False]
 
 for index, element in enumerate(lista5):
-    if element == False:
+    if not element:
         lista5[index] = True
         
 print(lista5)
